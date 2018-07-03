@@ -1,0 +1,17 @@
+<ion-view view-title="Programme" name="programme-view">
+  <ion-content padding="'true'" class="has-header">
+    <ion-refresher
+      pulling-text="Pull to refresh..."
+      on-refresh="doRefresh()">
+    </ion-refresher>
+    <div class="list">
+      <a class="item" ng-href="#/programme/create">ADD</a>
+    </div>
+
+    <h4>Programmes</h4>
+    <div class="list" ng-repeat="programme in programmes">
+      <a class="item" ng-href="#/programme/{{programme.name}}" ng-click="select({{programme}})">{{programme.name}}</a>
+    </div>
+
+  </ion-content>
+</ion-view>

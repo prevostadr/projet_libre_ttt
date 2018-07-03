@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>893591778693-e76gh1ecjlvrj7n8fsv05luod7v8pt5p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.893591778693-e76gh1ecjlvrj7n8fsv05luod7v8pt5p</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA7O7fj-n8fx7DaWXk8MNfqI1aENUikA6c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>893591778693</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.timeToTrain</string>
+	<key>PROJECT_ID</key>
+	<string>timetotrain-f45a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>timetotrain-f45a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:893591778693:ios:27d7489355ecb118</string>
+	<key>DATABASE_URL</key>
+	<string>https://timetotrain-f45a1.firebaseio.com</string>
+</dict>
+</plist>

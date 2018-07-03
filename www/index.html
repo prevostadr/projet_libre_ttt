@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" async="async"></script>
+
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/ionic-calendar/dist/css/calendar.min.css"/>
+    <link href="lib/ion-datetime-picker/release/ion-datetime-picker.min.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+    <script src="lib/ionic-calendar/dist/js/calendar-tpls.min.js"></script>
+    <script src="lib/ion-datetime-picker/release/ion-datetime-picker.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAgtuS2BnuMI_3v3Ad4XNLaGhLrS6-GTyg",
+        authDomain: "timetotrain-f45a1.firebaseapp.com",
+        databaseURL: "https://timetotrain-f45a1.firebaseio.com",
+        projectId: "timetotrain-f45a1",
+        storageBucket: "timetotrain-f45a1.appspot.com",
+        messagingSenderId: "893591778693"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script src="js/app.js"defer></script>
+
+    <script src="js/controllers.js"defer></script>
+    <script src="js/controllers/LoginCtrl.js"defer></script>
+    <script src="js/controllers/ProgrammeCtrl.js"defer></script>
+    <script src="js/directives/chat.js"defer></script>
+
+    <script src="cordova.js"></script>
+
+  </head>
+
+
+  <body  ng-app="starter">
+  <div id="splash-listing"></div>
+      <ion-nav-bar class='bar-light'>
+        <ion-nav-back-button></ion-nav-back-button>
+        <ion-nav-buttons side="right">
+          <button menu-toggle="left" class="button button-icon icon ion-power white" ng-click="signOut()">
+          </button>
+        </ion-nav-buttons>
+      </ion-nav-bar>
+
+      <ion-nav-view></ion-nav-view>
+
+  </body>
+
+</html>

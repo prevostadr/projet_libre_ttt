@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "893591778693",
+    "firebase_url": "https://timetotrain-f45a1.firebaseio.com",
+    "project_id": "timetotrain-f45a1",
+    "storage_bucket": "timetotrain-f45a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893591778693:android:27d7489355ecb118",
+        "android_client_info": {
+          "package_name": "com.timeToTrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893591778693-82id35gnafgqngetpqcaucveptegntkk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "893591778693-82id35gnafgqngetpqcaucveptegntkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr5t9QkvtvHndnWs9Gw81xfK1HCkrEP3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<ion-view view-title="Select Programme" name="programme-view">
+  <ion-content padding="'true'" class="has-header">
+    <div class="list">
+      <a class="item" ng-click="delete(selectProg)">Delete</a>
+    </div>
+    <div class="list">
+      <a class="item" ng-click="download()">Download</a>
+      <div ng-if="fileProg">
+        File created successfully</br>
+        Path: {{fileProg}}
+      </div>
+    </div>
+
+    <div class="list">
+      <a class="item" ng-click="share()">Share</a>
+    </div>
+    <h4>Programme {{selectProg.name}}</h4>
+
+    <p>
+      Name: {{selectProg.name}} </br>
+      Exercice: {{selectProg.exercice}} </br>
+      Repetition: {{selectProg.repetition}} </br>
+      Nombre de repetition: {{selectProg.nb_repetition}} </br>
+      Pause(seconde): {{selectProg.pause}}
+    </p>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,28 @@
+<ion-view title="Home Page" ng-href="/" >
+
+  <ion-content class="padding">
+    <ion-scroll direction="y" scrollbar-y="true">
+      <ion-list>
+        <h4>Hello {{userInfo.email}}</h4>
+        <div class="list">
+          <a class="item" ng-href="#/programme">Programme</a>
+        </div>
+        <div class="list">
+          <a class="item" ng-href="#/chat">Chat</a>
+        </div>
+        <div class="list" style="text-align:right;">
+          <h4 class="text-left">{{mounth}}</h4>
+          <button item-right class = "button" ng-click="showPopup()">Add event</button>
+        </div>
+
+        <div class="list" style="height: 400px">
+          <calendar calendar-mode="mode" event-source="eventSource" ng-model="selectedDate" event-selected="onEventSelected(event)"
+                    range-changed="reloadSource(startTime, endTime)" title-changed="onViewTitleChanged(title)"></calendar>
+        </div>
+
+      </ion-list>
+    </ion-scroll>
+
+  </ion-content>
+
+</ion-view>
